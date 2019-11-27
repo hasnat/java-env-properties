@@ -21,14 +21,19 @@ compile 'com.github.hasnat:java-env-properties:1.0.0'
 ```
 
 ### Usage
-```
+```java
 // Function Definition
 // Properties envToProperties(Map<String, String> envVars, boolean lowerCaseKeys, String envPrefix, Properties mergeToProperties)
 
-Properties props = JavaEnvProperties.envToProperties(System.getenv(), true, "JAVA_ENVS_", System.getProperties());
+Properties props = JavaEnvProperties.envToProperties(
+    System.getenv(),
+    true,
+    "JAVA_ENVS_",
+    System.getProperties()
+);
 
 // Envs
-JAVA_ENVS_HELLO_THERE=General Kenobi
+// JAVA_ENVS_HELLO_THERE=General Kenobi
 // Output (Properties)
-hello.there=General Kenobi
+// hello.there=General Kenobi
 ```
