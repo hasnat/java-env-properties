@@ -1,5 +1,6 @@
 # java-env-properties
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.hasnat/java-env-properties/badge.svg)]https://mvnrepository.com/artifact/com.github.hasnat/java-env-properties)
+
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.hasnat/java-env-properties/badge.svg)](https://mvnrepository.com/artifact/com.github.hasnat/java-env-properties)
 
 Add environment variables to java properties.
 
